@@ -22,7 +22,8 @@ import org.json.JSONObject
 //    }...]
 //    }/
 
-class NewsItem(private val article: JSONObject) {
+// Class to main the each articles datas.
+class NewsItem(article: JSONObject) {
     companion object {
         private fun convertArticleToNewsItem(response: JSONObject): NewsItem {
             return NewsItem(response)
@@ -46,6 +47,7 @@ class NewsItem(private val article: JSONObject) {
     var publishedAt: String
     var content: String
     var source: Pair<String, String> = Pair("NA", "NA")
+    var didTryDownload = false
 
     init {
         title = article.optString("title", "NA")
@@ -60,5 +62,4 @@ class NewsItem(private val article: JSONObject) {
             this.source = Pair(source.optString("id", "NA"), source.optString("name", "NA"))
         }
     }
-
 }

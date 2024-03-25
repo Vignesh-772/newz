@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">NewZ</string>
     <string name="app_title">Newz</string>
+    <string name="share_news_title">Check the Latest News from Newz</string>
+    <string name="sort">Sort</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Decending</string>
 </resources>
