@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "343022445352",
+    "project_id": "newz-e1ee3",
+    "storage_bucket": "newz-e1ee3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343022445352:android:39f2616e04aadce12f261d",
+        "android_client_info": {
+          "package_name": "in.vicky.newz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs5Lti6y_ucDh8zVh4aBGcEJd4jcGWZqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
